@@ -68,7 +68,7 @@ document.querySelector('.again').addEventListener('click', function () {
 
   //NUMBER
   secretNumber = Math.trunc(Math.random() * 20) + 1;
-  displayMessage('?');
+  document.querySelector('.number').textContent = '?';
 
   //Width
   document.querySelector('.number').style.width = '15rem';
